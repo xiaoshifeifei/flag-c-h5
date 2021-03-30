@@ -1,0 +1,76 @@
+import Vue from 'vue';
+import {
+    NoticeBar,
+    Switch,
+    Tabbar,
+    TabbarItem,
+    Tab,
+    Tabs,
+    List,
+    PullRefresh,
+    Sticky,
+    Icon,
+    ImagePreview,
+    Picker,
+    Search,
+    Toast,
+    Form,
+    Field,
+    Uploader,
+    Button,
+    Lazyload,
+    Cell,
+    CellGroup,
+    Divider,
+    DatetimePicker,
+    Area,
+    Loading,
+    NumberKeyboard,
+    ActionSheet,
+    Dialog,
+    Popup,
+    RadioGroup,
+    Radio,
+    NavBar,
+} from 'vant';
+import { Image as VanImage } from 'vant';
+import { Swipe, SwipeItem } from 'vant';
+import { Grid, GridItem } from 'vant';
+Vue.use(CellGroup);
+Vue.use(Grid);
+Vue.use(GridItem);
+Vue.use(Swipe);
+Vue.use(SwipeItem);
+Vue.use(Search);
+Vue.use(Area);
+Vue.use(DatetimePicker);
+Vue.use(Popup);
+Vue.use(Picker);
+Vue.use(Divider);
+Vue.use(Cell);
+Vue.use(Lazyload);
+Vue.use(VanImage);
+Vue.use(Uploader);
+Vue.use(Field);
+Vue.use(Form);
+Vue.use(Toast);
+Vue.use(Switch);
+Vue.use(Tabbar);
+Vue.use(TabbarItem);
+Vue.use(Button);
+Vue.use(Tab);
+Vue.use(Tabs);
+Vue.use(List);
+Vue.use(PullRefresh);
+Vue.use(Sticky);
+Vue.use(Icon);
+Vue.use(ImagePreview);
+Vue.use(Icon);
+Vue.use(Loading);
+Vue.use(NumberKeyboard);
+Vue.use(ActionSheet);
+Vue.use(NoticeBar);
+Vue.use(Dialog);
+Vue.use(RadioGroup);
+Vue.use(Radio);
+Vue.use(NavBar);
